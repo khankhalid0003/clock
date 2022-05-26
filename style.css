@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+ /* background-image: linear-gradient(to left,black,blue,black); */
+ background-image: radial-gradient(circle, rgb(4, 0, 255),rgba(14, 1, 4, 0.918), rgb(10, 70, 10));
+}
+
+
+.container{
+  color: white;
+  font-size: xx-large;
+  
+  height: 54vh;
+  width: 45vw;
+  margin-top: 30vh;
+  margin-left: 60vh; 
+  
+}
+
+.num{
+  display: flex;
+  font-size: 3em;
+}
+
+
