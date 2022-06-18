@@ -12,7 +12,7 @@ function test() {
 
   formate < 10
     ? (h.innerHTML = "0" + formate)
-    : (h.innerHTML = d.getHours());
+    : (h.innerHTML = formate);
   d.getMinutes() < 10
     ? (m.innerHTML = " : "+"0"+ d.getMinutes())
     : (m.innerHTML = " : "+d.getMinutes());
